@@ -1,0 +1,5 @@
+psfname: "./images/psf_box_exp8.tif" #Path to PSF image
+imgname: "./images/baffle_hand.tif" #Path to raw data image
+f: 0.125 #Downsampling factor (must be decimal, must be 1/2^k where k is positive integer)
+iters: 100 #Number of iterations
+disp_pic: 20 #Number of iterations after which we display intermediate reconstruction

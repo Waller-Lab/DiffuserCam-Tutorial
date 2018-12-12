@@ -1,0 +1,9 @@
+psfname: "./images/psf_box_exp8.tif" #path to psf image
+imgname: "./images/baffle_hand.tif" #path to raw data image file
+f: 0.25 #Downsampling factor (must be decimal, must be of form 1/2^k where k is positive integer)
+disp_pic: 4 #Number of iterations after which we display intermediate reconstruction
+mu1: 1.0e-6 #Decimal point is REQUIRED if using scientific notation
+mu2: 1.0e-5
+mu3: 4.0e-5
+tau: 0.0001
+iters: 1

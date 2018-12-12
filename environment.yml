@@ -1,0 +1,10 @@
+name: diffuser_cam
+channels:
+- conda-forge
+dependencies:
+- python=3
+- numpy
+- matplotlib
+- pillow
+- pip
+- pyyaml
